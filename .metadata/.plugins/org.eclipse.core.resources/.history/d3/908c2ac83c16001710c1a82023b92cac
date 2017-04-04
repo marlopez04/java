@@ -1,0 +1,17 @@
+package paquete;
+import paquete.Pelota;
+
+class Main {
+
+	public static void main(String[] args) {
+		
+		//inicializar el objeto
+		Pelota p;
+		p = new Pelota();
+		
+		float var = p.obtenerPeso();
+		System.out.println("La pelota pasa: "+var);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package paquete;
+
+public class Carro {
+	
+	double peso;
+	double altura;
+	double ancho;
+	double largo;
+	int numeroPuertas;
+	String modelo;
+
+}

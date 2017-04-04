@@ -1,0 +1,15 @@
+package paquete;
+
+class Main {
+
+	public static void main(String[] args) {
+		
+		int variable1;
+		variable1 = 5;
+		int resultado;
+		resultado = variable1 / 2;
+		System.out.print("El resultado es: " +resultado);
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package paquete;
+import paquete.Pelota;
+import paquete.Carro;
+
+class Main {
+
+	public static void main(String[] args) {
+		
+		//inicializar el objeto
+		
+/*		
+		Pelota p = new Pelota();
+		Pelota pB = new Pelota(500,500);
+		
+		float var = p.obtenerPeso();
+		System.out.println("La pelota pasa: "+var);
+*/
+
+//herencia
+		
+		
+		CarroBMW c;
+		c = new CarroBMW();
+		c.apagar();
+		c.encender();
+		c.turbo();
+		
+	}
+
+}

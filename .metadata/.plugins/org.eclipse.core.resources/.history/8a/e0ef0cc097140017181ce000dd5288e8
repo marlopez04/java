@@ -1,0 +1,13 @@
+package paquete;
+
+class Main {
+
+	public static void main(String[] args) {
+		
+		int variable1;
+		variable1 = 5;
+		System.out.print(variable1);
+
+	}
+
+}
